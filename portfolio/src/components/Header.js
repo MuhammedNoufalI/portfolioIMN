@@ -15,6 +15,7 @@ const Header = () => {
           <li><a href="/career">My Career</a></li>
           <li><a href="/blogs">Blogs</a></li>
           <li><a href="/contact">Contact</a></li>
+          <li><a href="/cv.pdf" download className="download-cv">Download CV</a></li>
         </ul>
       </nav>
     </header>

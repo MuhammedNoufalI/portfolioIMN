@@ -3,12 +3,11 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #282c34;
-  color: white;
+  background-color: var(--header-bg);
 }
 
 .logo a {
-  color: white;
+  color: var(--text-color);
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: bold;
@@ -19,6 +18,7 @@
   margin: 0;
   padding: 0;
   display: flex;
+  align-items: center; /* To align the button with the links */
 }
 
 .nav li {
@@ -26,6 +26,18 @@
 }
 
 .nav a {
-  color: white;
+  color: var(--text-color);
   text-decoration: none;
+}
+
+.download-cv {
+  background-color: var(--primary-color);
+  color: var(--header-bg) !important;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.download-cv:hover {
+  background-color: var(--text-color);
 }
